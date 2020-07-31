@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+main{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+nav{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: black;
+    padding: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.nav-links a:hover{
+    color: lightpink;
+}
+
+#about{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 25%;
+    border: 1px solid black;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+#education{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 25%;
+    border: 1px solid black;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+#hobbies{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 25%;
+    border: 1px solid black;
+    font-size: 24px;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+#contact{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 25%;
+    border: 1px solid black;
+    font-size: 24px;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+#social{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 25%;
+    border: 1px solid black;
+    font-size: 24px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+footer{
+    height: 10vh;
+    padding-top: 20px;
+    font-size: 26px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
